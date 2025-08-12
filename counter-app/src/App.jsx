@@ -16,10 +16,6 @@ function User({ name, bio }) {
 function App() {
   return (
     <>
-      {/* <h1 style={{ textAlign: 'center' }}>User List</h1>
-      {users.map((user) => (
-        <User key={user.id} name={user.name} bio={user.company.name} />
-      ))} */}
       <Hooks />
     </>
   );
