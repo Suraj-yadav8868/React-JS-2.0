@@ -1,42 +1,90 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
+/* Container */
+.container {
+  max-width: 500px;
+  margin: 40px auto;
+  padding: 20px;
+  background: #f4f4f4;
+  border-radius: 10px;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+  font-family: Arial, sans-serif;
+}
+
+/* Title */
+.title {
   text-align: center;
+  margin-bottom: 20px;
+  color: #333;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+/* Form */
+.form {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.form input {
+  flex: 1;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+.save-btn {
+  padding: 8px 12px;
+  background: #4cafef;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.save-btn:hover {
+  background: #3b9dd6;
 }
 
-.card {
-  padding: 2em;
+/* Book List */
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
 
-.read-the-docs {
-  color: #888;
+.book-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px;
+  background: white;
+  border-radius: 5px;
+  align-items: center;
+  border: 1px solid #ddd;
+}
+
+.actions {
+  display: flex;
+  gap: 5px;
+}
+
+.edit-btn {
+  padding: 5px 8px;
+  background: #ffb300;
+  border: none;
+  border-radius: 3px;
+  color: white;
+  cursor: pointer;
+}
+.edit-btn:hover {
+  background: #e2a000;
+}
+
+.delete-btn {
+  padding: 5px 8px;
+  background: #e53935;
+  border: none;
+  border-radius: 3px;
+  color: white;
+  cursor: pointer;
+}
+.delete-btn:hover {
+  background: #c62828;
 }
