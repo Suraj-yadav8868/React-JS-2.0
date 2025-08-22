@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.nav-bar {
+    height: 70px;
+    background-color: #BBDCE5;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.logo {
+    color: #112D4E;
+    margin-left: 80px;
+}
+
+.links {
+    display: flex;
+    gap: 30px;
+    margin-right: 40px;
+}
+.links a {
+     color: #FFF0C4;
+  font-weight: 500;
+  color: #112D4E;
+  text-decoration: inherit;
+}
+ .links a:hover {
+  color: #1C352D;
+}

@@ -1,12 +1,24 @@
-# React + Vite
+📚 Books Manager App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to Books Manager App! ✨
+This is a beginner-friendly ReactJS CRUD (Create, Read, Update, Delete) application that helps you manage your favorite books with ease. Whether you want to add new titles, update existing records, or remove old ones, this app provides a clean and dynamic experience.
 
-Currently, two official plugins are available:
+Perfect for students, developers, or book lovers 📖 who want to practice React basics while building something fun and practical.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Video
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+🚀 Features
+
+✨ Add Books – Save your favorite titles with the author’s name.
+✏️ Edit Books – Update book details instantly without hassle.
+🗑️ Delete Books – Remove books you no longer need.
+🎨 Minimal & Modern UI – Sleek and responsive design for a smooth user experience.
+⚡ Instant Updates – Real-time changes with React state management.
+
+🛠️ Tech Stack
+
+⚛️ ReactJS – For creating an interactive and dynamic UI.
+🎨 CSS – For styling and giving the app a clean, modern look.
+🔄 React useState Hook – For managing component states efficiently.
+⚡ Vite – For blazing-fast development and build performance.

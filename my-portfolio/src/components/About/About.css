@@ -1,0 +1,32 @@
+.about-section {
+    height: 600px;
+    width: 100%;
+    background-color: #ECEEDF;
+    display: flex;
+    justify-content: space-between;
+    
+
+}
+.discription {
+
+    height: 400px;
+    /* background-color: #ef0b0b; */
+    width: 40%;
+    padding: 20px;
+    font-size: 18px;
+    color: #113F67;
+    margin-top: 100px;
+    padding-left: 50px;
+}
+.profile-img {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.profile-img img {
+    width: 80%;
+    height: auto;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
