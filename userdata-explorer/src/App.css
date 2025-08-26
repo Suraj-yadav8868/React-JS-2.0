@@ -1,0 +1,81 @@
+/* Reset default margin/padding */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Animated gradient background */
+.app {
+  position: relative;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  padding: 40px 0;
+  background: linear-gradient(-45deg, #ff6ec4, #7873f5, #42e695, #3bb2b8);
+  background-size: 400% 400%;
+  animation: gradientBG 12s ease infinite;
+}
+
+/* Background gradient animation */
+@keyframes gradientBG {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+/* Scrolling container */
+.scroller {
+  display: flex;
+  gap: 20px;
+  animation: scroll 50s linear infinite;
+}
+
+/* Infinite scroll animation */
+@keyframes scroll {
+  0% { transform: translateX(100%); }
+  100% { transform: translateX(-100%); }
+}
+
+/* Card styling */
+.card {
+  animation: scroll 15s linear infinite;
+
+  min-width: 220px;
+  background: rgba(255, 255, 255, 0.15);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 20px;
+  padding: 20px 30px;
+  text-align: center;
+  color: white;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+/* Hover effect */
+.card:hover {
+  transform: translateY(-10px) scale(1.05);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.5);
+}
+
+/* Name and Bio styling */
+.card h2 {
+  font-size: 1.3rem;
+  margin-bottom: 10px;
+}
+
+.card p {
+  font-size: 0.95rem;
+  opacity: 0.9;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .card {
+    min-width: 180px;
+    padding: 15px 20px;
+  }
+}

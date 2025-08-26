@@ -30,3 +30,36 @@
     border-radius: 50%;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
+.buttons {
+  margin-top: 20px;
+  display: flex;
+  gap: 15px;
+}
+
+.btn {
+  padding: 10px 20px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.3s ease;
+}
+
+.primary-btn {
+  background-color: #112D4E;
+  color: white;
+}
+
+.primary-btn:hover {
+  background-color: #0056b3;
+}
+
+.secondary-btn {
+  background-color: #112D4E;
+  color: #ddd;
+}
+
+.secondary-btn:hover {
+    color: black;
+  background-color: #ddd;
+}
