@@ -1,8 +1,6 @@
 import React from 'react'
 import "./Contact.css"
 
-
-
 export default function Contact() {
   return (
     <div className="contact-section">
@@ -12,6 +10,7 @@ export default function Contact() {
       </p>
 
       <div className="contact-container">
+        {/* Contact Form */}
         <form className="contact-form">
           <input type="text" placeholder="Your Name" required />
           <input type="email" placeholder="Your Email" required />
@@ -19,11 +18,12 @@ export default function Contact() {
           <button type="submit" className="btn submit-btn">Send Message</button>
         </form>
 
+        {/* Contact Info */}
         <div className="contact-info">
           <h3>Get in Touch</h3>
-          <p><strong>Email:</strong> moraco@example.com</p>
+          <p><strong>Email:</strong> yadavsuraj2334@gmail.com</p>
           <p><strong>Phone:</strong> +91 98765 43210</p>
-          <p><strong>Location:</strong> Mumbai, India</p>
+          <p><strong>Location:</strong> Indian Stock Exchange, Mumbai - surajtrades-x</p>
         </div>
       </div>
     </div>
