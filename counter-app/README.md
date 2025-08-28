@@ -17,11 +17,7 @@ Perfect for beginners who want to learn the **basics of state management** in Re
 
 ---
   
-
-  ## video 
-     https://drive.google.com/file/d/16nLBdyoE3t6BCyQPWh8NrbKTrIYChp-r/view?usp=sharing
-
-     
+   
 ## 🛠️ Tech Stack
 
 - ⚛️ **ReactJS** – For creating a dynamic and interactive interface  
