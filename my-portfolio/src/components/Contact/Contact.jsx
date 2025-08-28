@@ -22,7 +22,7 @@ export default function Contact() {
         <div className="contact-info">
           <h3>Get in Touch</h3>
           <p><strong>Email:</strong> yadavsuraj2334@gmail.com</p>
-          <p><strong>Phone:</strong> +91 98765 43210</p>
+          <p><strong>Phone:</strong> +91 9169727997</p>
           <p><strong>Location:</strong> Indian Stock Exchange, Mumbai - surajtrades-x</p>
         </div>
       </div>
