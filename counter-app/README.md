@@ -1,15 +1,30 @@
-# React + Vite
+# ⚛️ React Hooks Counter App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to the **React Hooks Counter App**! 🚀  
+This beginner-friendly project demonstrates how to use **React Hooks** like `useState` to create a simple interactive **counter**.  
 
-Currently, two official plugins are available:
+Perfect for beginners who want to learn the **basics of state management** in React while keeping the app clean and fun! ✨
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🎯 Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- ➕ **Increment** the counter by 1  
+- ➖ **Decrement** the counter by 1  
+- ✂ **Divide by 2** without showing decimals  
+- 🔄 **Reset** the counter back to `0`  
+- 🎨 **Minimal UI** with inline styling
 
+---
+  
 
+  ## video 
+     https://drive.google.com/file/d/16nLBdyoE3t6BCyQPWh8NrbKTrIYChp-r/view?usp=sharing
 
+     
+## 🛠️ Tech Stack
+
+- ⚛️ **ReactJS** – For creating a dynamic and interactive interface  
+- 🧩 **React Hooks (`useState`)** – For managing the counter state  
+- 🎨 **CSS** – Basic styling for a clean look  
+- ⚡ **Vite** – For fast builds and blazing-fast development  
