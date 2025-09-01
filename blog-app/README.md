@@ -1,8 +1,10 @@
-📝 Blogify - React LocalStorage Blog
+## 📝 Blogify - React LocalStorage Blog
 
 A lightweight React-based blogging app that allows you to create, edit, pin, search, and delete posts, all stored locally in your browser using LocalStorage.
 
-🚀 Features
+---
+
+## 🚀 Features
 
 ✍ Create & Edit Posts – Add a title, content, and tags.
 
@@ -18,7 +20,10 @@ A lightweight React-based blogging app that allows you to create, edit, pin, sea
 
 🗑 Delete Single or All Posts – With confirmation dialogs.
 
-📂 Project Structure
+
+---
+
+## 📂 Project Structure
 📦 blogify  
 ┣ 📂 src  
 ┃ ┣ 📜 App.jsx          # Main application component  
@@ -26,7 +31,9 @@ A lightweight React-based blogging app that allows you to create, edit, pin, sea
 ┃ ┣ 📜 index.css        # Styles  
 ┗ 📜 README.md          # Project documentation  
 
-🛠️ Tech Stack
+---
+
+##  🛠️ Tech Stack
 
 ⚛ React.js – Component-based UI
 
@@ -36,7 +43,9 @@ A lightweight React-based blogging app that allows you to create, edit, pin, sea
 
 ⚡ Vite – Fast development and build tool
 
-💻 How to Run
+---
+
+##  💻 How to Run
 1️⃣ Clone the repository
 git clone https://github.com/your-username/blogify.git
 cd blogify
@@ -61,10 +70,16 @@ npm run dev
 
 📸 Screenshot / Demo
 
-🎥 Video Demo:
-Watch Here
+---
 
-🔮 Future Improvements
+##  🎥 Video Demo:
+  wait 
+
+
+
+---
+
+## 🔮 Future Improvements
 
 ☁ Backend Integration – Save posts in a real database.
 
@@ -74,7 +89,10 @@ Watch Here
 
 📱 Mobile Optimizations – Better experience on small screens.
 
-🤝 Contributing
+
+---
+
+## 🤝 Contributing
 
 Contributions are always welcome!
 
