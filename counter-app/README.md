@@ -66,7 +66,7 @@ Click 🔄 Reset to set the counter back to 0.
 
 
 ----
-##🤝 Contributing
+## 🤝 Contributing
 
 Contributions are welcome! 🎉
 
