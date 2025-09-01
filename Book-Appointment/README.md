@@ -37,7 +37,7 @@ A simple **React-based appointment booking app** where users can fill out a form
 
 ---
 
-##🧾 Usage
+## 🧾 Usage
 
 🖊️ Fill in your Name, Phone, Gender, Age, Date, and Problem
 
@@ -51,7 +51,7 @@ A simple **React-based appointment booking app** where users can fill out a form
 
 ---
 
-##🔮 Future Improvements
+## 🔮 Future Improvements
 
 💾 Save data in localStorage
 
@@ -64,8 +64,8 @@ A simple **React-based appointment booking app** where users can fill out a form
 
 
 ---
-
-##🤝 Contributing
+ 
+## 🤝 Contributing
 
 Contributions are welcome! 🎉
 
@@ -80,4 +80,4 @@ Submit a pull request
 
 ---
 
-##Suraj-yadav
+## Suraj-yadav
