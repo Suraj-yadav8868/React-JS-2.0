@@ -16,9 +16,9 @@ A simple **React-based appointment booking app** where users can fill out a form
 --- 
 
 📸 Video
-##  https://drive.google.com/file/d/1aoQB128HlrADAJsHpN4YJCXIJfyk4noK/view?usp=drive_link
+#  https://drive.google.com/file/d/1aoQB128HlrADAJsHpN4YJCXIJfyk4noK/view?usp=drive_link
 
-(Add a screenshot of your app here for better visuals) 
+
 ## 📂 Project Structure  
 
 
@@ -35,6 +35,8 @@ A simple **React-based appointment booking app** where users can fill out a form
 ┗ 📜 README.md
 
 
+
+
 🧾 Usage
 
 🖊️ Fill in your Name, Phone, Gender, Age, Date, and Problem
@@ -46,6 +48,9 @@ A simple **React-based appointment booking app** where users can fill out a form
 📋 View the appointment instantly in the List View section
 
 
+
+
+
 🔮 Future Improvements
 
 💾 Save data in localStorage
@@ -55,6 +60,9 @@ A simple **React-based appointment booking app** where users can fill out a form
 ☁️ Connect to a backend API for persistent data
 
 🌙 Add a Dark Mode Toggle
+
+
+
 
 
 🤝 Contributing
