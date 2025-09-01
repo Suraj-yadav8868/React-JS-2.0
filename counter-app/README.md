@@ -25,18 +25,7 @@ Perfect for beginners who want to learn the **basics of state management** in Re
 - 🎨 **CSS** – Basic styling for a clean look  
 - ⚡ **Vite** – For fast builds and blazing-fast development
 
-
-
-
-
-
-
-
-
-
-
-
-
+---
 
 📂 Project Structure
 📦 react-counter-app
@@ -75,7 +64,9 @@ Click 🔄 Reset to set the counter back to 0.
 
 📱 Make it more mobile-friendly with responsive design.
 
-🤝 Contributing
+
+----
+##🤝 Contributing
 
 Contributions are welcome! 🎉
 
@@ -89,4 +80,5 @@ Submit a Pull Request
 
 ⭐ Credits
 
-Developed by Suraj Yadav(https://github.com/Suraj-yadav8868)
+⭐ From [Suraj Yadav](https://github.com/Suraj-yadav8868)
+
