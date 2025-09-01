@@ -118,10 +118,10 @@ export default function Form() {
           <label>Select Doctor</label>
           <select name="doctor" value={formData.doctor} onChange={handleInputForm}>
             <option value="Dr. Gulati">Dr. Gulati</option>
-            <option value="Dr. Magenta">Dr. Jastine</option>
-            <option value="Dr. Orange">Dr. Tokyo</option>
-            <option value="Dr. Blue">Dr. Parekh</option>
-            <option value="Dr. Red">Dr. Sanjay</option>
+            <option value="Dr. Jastine">Dr. Jastine</option>
+            <option value="Dr. Tokyo">Dr. Tokyo</option>
+            <option value="Dr. Parekh">Dr. Parekh</option>
+            <option value="Dr. Sanjay">Dr. Sanjay</option>
           </select>
 
           <label>Share your problem</label>
