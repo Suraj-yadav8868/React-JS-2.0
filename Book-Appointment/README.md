@@ -1,7 +1,7 @@
 # 🩺 Appointment Booking App  
 
 A simple **React-based appointment booking app** where users can fill out a form to schedule an appointment and instantly view their bookings on the same page.  
-
+  
 ---
 
 ## 🚀 Features  
@@ -13,7 +13,7 @@ A simple **React-based appointment booking app** where users can fill out a form
 - ✅ Validation for required fields before submission.  
 - 🎉 Success Alert after booking confirmation.  
 
----
+--- 
 
 📸 Video
 ##  https://drive.google.com/file/d/1aoQB128HlrADAJsHpN4YJCXIJfyk4noK/view?usp=drive_link
