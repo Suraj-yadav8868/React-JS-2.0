@@ -15,10 +15,10 @@ This is a simple React-based appointment booking app where users can fill out a 
 ✅ Validation for required fields before submission.
 
 📸 Video
-
+   
 https://drive.google.com/file/d/1aoQB128HlrADAJsHpN4YJCXIJfyk4noK/view?usp=sharing
 
-🎉 Success Alert after booking confirmation.
+🎉 Success Alert after booking confirmation. 
 
 📂 Project Structure
 📦 appointment-app
