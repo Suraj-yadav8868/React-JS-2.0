@@ -1,10 +1,11 @@
-### 🩺 Patient Appointment Form
+## 🩺 Patient Appointment Form
 
 A React-based Patient Appointment Form to collect and display patient information instantly on the same page. Designed for hospitals, clinics, or health professionals to streamline appointment bookings.
 ---
 
 ## 🚀 Features
  
+
 📝 Patient Information Form – Name, Age, Gender, Contact, Email, and Address
 
 🩺 Appointment Details – Speciality, Doctor, Date, Time, and Appointment Type
@@ -40,9 +41,14 @@ A React-based Patient Appointment Form to collect and display patient informatio
 6️⃣ Check the Terms & Privacy Policy.
 7️⃣ Click Book Appointment to finalize the booking.
 
+
+
 ---
 
 ## 🎥 Demo Video
+
+
+
 
 📹 Click to Watch
 
@@ -59,6 +65,9 @@ A React-based Patient Appointment Form to collect and display patient informatio
 📧 Email Notifications for confirmed bookings
 
 ---
+
+
+
 
 ## 🛠️ Tech Stack
 
