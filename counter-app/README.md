@@ -78,7 +78,7 @@ Make your changes
 
 Submit a Pull Request
 
+----------------------------------------
 ⭐ Credits
-
 ⭐ From [Suraj Yadav](https://github.com/Suraj-yadav8868)
 
