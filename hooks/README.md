@@ -1,12 +1,70 @@
-# React + Vite
+# ✍️ React TextUtils App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to the **React TextUtils App**! 🚀  
+This project helps you analyze and manipulate text with **React Hooks** in a simple and interactive way.  
 
-Currently, two official plugins are available:
+Perfect for beginners to practice state management while working on a **real-world utility project**. ✨
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🎯 Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- 📝 **Live preview** of your input text  
+- 🔢 **Count characters** instantly  
+- 🔡 **Count words** with a single click  
+- ⚡ **Instant state updates** for smooth user experience
+
+---
+
+## 🛠️ Tech Stack
+
+- ⚛️ **ReactJS** – Dynamic UI  
+- 🧩 **React Hooks (`useState`)** – State handling  
+- 🎨 **CSS** – Clean styling  
+- ⚡ **Vite** – Fast dev/build
+
+---
+
+## 📂 Project Structure
+
+📦 react-textutils-app
+┣ 📂 src
+┃ ┣ 📜 TextUtils.jsx
+┃ ┣ 📜 App.jsx
+┃ ┣ 📜 index.js
+┃ ┣ 📜 index.css
+┗ 📜 README.md
+
+
+---
+
+## 🧾 Usage
+
+- Type your text in the **input field**  
+- Click **Count Length** to calculate **character length**  
+- Click **Count Words** to calculate **total words**  
+- Watch the **live preview update** in real-time
+
+---
+
+## 🔮 Future Improvements
+
+- 🔠 Convert text to **Uppercase / Lowercase**  
+- ⏱ Estimate **reading time** for the text  
+- 🔡 Count **vowels and consonants** separately  
+- 🎨 Add **dark mode** for better UI/UX
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome! 🎉
+
+- Fork the repository  
+- Create a new branch  
+- Make your changes  
+- Submit a pull request
+
+---
+
+⭐ From [Suraj Yadav](https://github.com/Suraj-yadav8868)
