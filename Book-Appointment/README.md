@@ -80,4 +80,4 @@ Submit a pull request
 
 ---
 
-## Suraj-yadav
+⭐ From [Suraj Yadav](https://github.com/Suraj-yadav8868)
