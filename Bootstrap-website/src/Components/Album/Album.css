@@ -1,0 +1,20 @@
+.album{
+    background-color: #E3FDFD;
+}
+.card{
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #C9E6F0;
+}
+.card-img-top{
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px
+}
+.card-body p{
+    padding: 1px;
+    color: #273F4F;
+}
+.card-body .btn{
+    background-color: #27548A;
+    color: white;
+}

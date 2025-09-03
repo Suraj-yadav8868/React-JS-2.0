@@ -1,0 +1,67 @@
+.footer {
+  background-color: #b9e9eb;
+  color: #08131e;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.footer small {
+  font-size: 0.85rem;
+}
+
+.footer h5, .footer p, .footer a, .footer h6 {
+  color: #27548A;
+}
+
+.footer a {
+  text-decoration: none;
+}
+
+.footer a:hover {
+  color: rgb(0, 85, 255);
+}
+
+/* Vertical links */
+.footer-links-vertical {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+/* Form Styling */
+.query-form {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.query-form input,
+.query-form textarea {
+  padding: 8px;
+  border: 1px solid #27548A;
+  border-radius: 5px;
+  background-color: #fff;
+  color: #08131e;
+  font-size: 14px;
+}
+
+.query-form input:focus,
+.query-form textarea:focus {
+  outline: none;
+  border-color: rgb(0, 85, 255);
+  box-shadow: 0 0 4px rgba(0, 85, 255, 0.4);
+}
+
+.query-form button {
+  padding: 8px;
+  background-color: #27548A;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.query-form button:hover {
+  background-color: rgb(0, 85, 255);
+}

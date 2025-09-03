@@ -1,36 +1,62 @@
 .hero-section {
-  background-color: #D9EAFD;
+  position: relative;
+  height: 400px;
+  background-size: cover;
+  background-position: center;
+  transition: background-image 1s ease-in-out;
   color: #1a1b1c;
-  padding: 80px 0;
+}
+
+/* Overlay for better text readability */
+.hero-section .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(136, 193, 219, 0.588); /* Darker overlay for better contrast */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
 }
 
 .hero-section h1 {
-  font-size: 2.5rem;
-  font-weight: 700;
-  color: #2D336B;
+  font-size: 2.8rem;
+  font-weight: 800;
+  color: #fff;
+  margin-bottom: 20px;
 }
 
-.hero-section p {
-  font-size: 1.2rem;
-  max-width: 700px;
-  margin: 0 auto;
-  color: #273F4F;
+.hero-section p.lead {
+  font-size: 1.5rem;
+  font-weight: bold; /* Make news text bold */
+  color: #f5f5f5;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.7);
+  transition: opacity 1s ease-in-out;
 }
 
-.hero-section .btn-primary {
-  background-color: #789DBC;
-  border: none;
+.main .btn {
+  background-color: #27548A;
+  color: white;
 }
 
-.hero-section .btn-primary:hover {
-  background-color: #0056b3;
+.main .btn-light {
+  background-color: white;
+  color: #27548A;
 }
 
-.hero-section .btn-secondary {
-  background-color: #6c757d;
-  border: none;
+.main .btn-light:hover {
+  background-color: #0C0950;
+  color: #F2EFE7;
 }
 
-.hero-section .btn-secondary:hover {
-  background-color: #5a6268;
+.main .btn-secondry {
+  background-color: #0C0950;
+  color: white;
+}
+
+.main .btn-secondry:hover {
+  background-color: white;
+  color: #27548A;
 }

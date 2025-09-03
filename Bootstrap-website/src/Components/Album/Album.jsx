@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import './Album.css';
 
 export default function Album() {
   const [articles, setArticles] = useState([]);
@@ -14,9 +15,11 @@ export default function Album() {
 
   return (
     <div>
-      <div className="album py-5 bg-light">
+      
+      <div className="album py-5">
         <div className="container">
-          <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+
+          <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-5">
             {articles.map((article, index) => (
               <div className="col" key={index}>
                 <div className="card shadow-sm">
@@ -36,9 +39,9 @@ export default function Album() {
                           href={article.url}
                           target="_blank"
                           rel="noopener noreferrer"
-                          className="btn btn-sm btn-outline-secondary"
+                          className="btn btn-sm"
                         >
-                          View
+                          Read More
                         </a>
                       </div>
                       <small className="text-muted">

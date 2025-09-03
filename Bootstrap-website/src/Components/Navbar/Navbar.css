@@ -1,6 +1,7 @@
 /* Navbar */
 .custom-navbar {
-  background-color: #F8FAFC;
+  height: 65px;
+  background-color: #E3FDFD;
   color: #1E293B;
 }
 
@@ -21,7 +22,7 @@
 
 /* Offcanvas */
 .custom-offcanvas {
-  background-color: #ffffff;
+  background-color: #E3FDFD;
   color: #1E293B;
 }
 

@@ -1,12 +1,67 @@
-# React + Vite
+# 📰 React News App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive **React News Application** that fetches and displays the latest headlines dynamically using the **NewsAPI**.  
+Built with **React, Bootstrap, and CSS animations** for a clean and interactive user experience.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Features
 
-## Expanding the ESLint configuration
+- 🌍 **Live Top Headlines** fetched using the [NewsAPI](https://newsapi.org/)  
+- 🖼 **Auto-changing Hero Banner** with smooth transitions  
+- 📰 **Dynamic News Cards** with images, headlines, and authors  
+- 🔍 **Fallback Images** for articles without media  
+- 📱 **Responsive Design** for mobile, tablet, and desktop  
+- 🎨 Clean and **customizable UI** with CSS and Bootstrap  
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 📸 Screenshots
+
+| Hero Section | News Cards |
+|--------------|-----------|
+| ![Hero Section](https://via.placeholder.com/600x300?text=Hero+Section) | ![News Cards](https://via.placeholder.com/600x300?text=News+Cards) |
+
+---
+
+## 🛠️ Tech Stack
+
+- ⚛️ **React** – Component-based UI  
+- 🎨 **Bootstrap 5** – Responsive and modern design  
+- 🌐 **NewsAPI** – For live news data  
+- 💅 **Custom CSS** – For additional styles and animations  
+
+---
+
+
+## 🔮 Future Improvements
+
+🔍 Search Functionality – For custom keywords
+
+🌎 Category Filters – Technology, Sports, Business, etc.
+
+🕒 Infinite Scrolling – For seamless news browsing
+
+🌓 Dark / Light Mode Toggle – Theme customization
+
+📦 State Management with Redux – For better scalability and performance
+
+---
+
+## 🙌 Credits
+
+NewsAPI
+ – for the live news data.
+
+Bootstrap
+ – for responsive styling.
+
+React
+ – for building the interactive UI.
+ 
+---
+
+ ## 👨‍💻 Author
+
+**Suraj Yadav**  
+💼 [LinkedIn](https://linkedin.com/in/suraj-yadav) | 🐦 [Twitter](https://twitter.com/surajyadav) | 🌐 [Portfolio](https://your-portfolio-link.com)
