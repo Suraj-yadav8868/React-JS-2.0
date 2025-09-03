@@ -1,53 +1,49 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 
 export default function Album() {
+  const [articles, setArticles] = useState([]);
+
+  useEffect(() => {
+    fetch('https://newsapi.org/v2/top-headlines?country=us&apiKey=002efedd43a6481caededec969eda1b6')
+      .then(response => response.json())
+      .then(data => {
+        setArticles(data.articles || []);
+      })
+      .catch(error => console.error('Error fetching data:', error));
+  }, []);
+
   return (
     <div>
       <div className="album py-5 bg-light">
         <div className="container">
           <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
-            {[...Array(9)].map((_, index) => (
+            {articles.map((article, index) => (
               <div className="col" key={index}>
                 <div className="card shadow-sm">
-                  <svg
-                    className="bd-placeholder-img card-img-top"
-                    width="100%"
-                    height="225"
-                    xmlns="http://www.w3.org/2000/svg"
-                    role="img"
-                    aria-label="Placeholder: Thumbnail"
-                    preserveAspectRatio="xMidYMid slice"
-                    focusable="false"
-                  >
-                    <title>Placeholder</title>
-                    <rect width="100%" height="100%" fill="#55595c"></rect>
-                    <text x="50%" y="50%" fill="#eceeef" dy=".3em">
-                      Thumbnail
-                    </text>
-                  </svg>
-
+                  <img
+                    src={article.urlToImage || 'https://via.placeholder.com/300'}
+                    alt="news"
+                    className="card-img-top"
+                    style={{ height: '225px', objectFit: 'cover' }}
+                  />
                   <div className="card-body">
                     <p className="card-text">
-                      This is a wider card with supporting text below as a natural
-                      lead-in to additional content. This content is a little bit
-                      longer.
+                      {article.title || 'No title available'}
                     </p>
                     <div className="d-flex justify-content-between align-items-center">
                       <div className="btn-group">
-                        <button
-                          type="button"
+                        <a
+                          href={article.url}
+                          target="_blank"
+                          rel="noopener noreferrer"
                           className="btn btn-sm btn-outline-secondary"
                         >
                           View
-                        </button>
-                        <button
-                          type="button"
-                          className="btn btn-sm btn-outline-secondary"
-                        >
-                          Edit
-                        </button>
+                        </a>
                       </div>
-                      <small className="text-muted">9 mins</small>
+                      <small className="text-muted">
+                        {article.author || 'Unknown'}
+                      </small>
                     </div>
                   </div>
                 </div>
