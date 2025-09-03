@@ -25,6 +25,12 @@ Perfect for beginners who want to learn the **basics of state management** in Re
 - 🎨 **CSS** – Basic styling for a clean look  
 - ⚡ **Vite** – For fast builds and blazing-fast development
 
+
+---
+# video
+https://drive.google.com/file/d/1mzpZGcpEWM_HiTrdGufDD2eq2WevHbPr/view?usp=sharing
+
+
 ---
 
 📂 Project Structure
