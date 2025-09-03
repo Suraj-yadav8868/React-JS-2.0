@@ -1,0 +1,27 @@
+:root {
+  --bg-light: #F8FAFC;
+  --primary-color: #D9EAFD;
+  --secondary-color: #BCCCDC;
+  --text-dark: #9AA6B2;
+}
+
+body {
+  background-color: var(--bg-light);
+  color: var(--text-dark);
+  font-family: Arial, sans-serif;
+}
+.navbar {
+  background-color: var(--primary-color);
+}
+.navbar a {
+  color: var(--text-dark);
+  font-weight: bold;
+}
+.btn-custom {
+  background-color: var(--secondary-color);
+  color: white;
+  border: none;
+}
+.btn-custom:hover {
+  background-color: var(--text-dark);
+}

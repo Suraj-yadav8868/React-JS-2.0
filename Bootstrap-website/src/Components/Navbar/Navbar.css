@@ -1,0 +1,39 @@
+/* Navbar */
+.custom-navbar {
+  background-color: #F8FAFC;
+  color: #1E293B;
+}
+
+.custom-navbar .navbar-brand {
+  color: #1E293B;
+  font-weight: bold;
+}
+
+.custom-navbar .navbar-toggler {
+  border: none;
+}
+
+.custom-navbar .navbar-toggler-icon {
+  background-color: #1E293B;
+  mask: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='rgba%280, 0, 0, 0.5%29' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E") no-repeat center;
+  -webkit-mask: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='rgba%280, 0, 0, 0.5%29' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E") no-repeat center;
+}
+
+/* Offcanvas */
+.custom-offcanvas {
+  background-color: #ffffff;
+  color: #1E293B;
+}
+
+.custom-offcanvas .offcanvas-header h5 {
+  font-weight: bold;
+}
+
+.custom-offcanvas .offcanvas-body .text-link {
+  color: #1E293B;
+  text-decoration: none;
+}
+
+.custom-offcanvas .offcanvas-body .text-link:hover {
+  text-decoration: underline;
+}
