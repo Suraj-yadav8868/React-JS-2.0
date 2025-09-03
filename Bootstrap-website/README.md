@@ -16,11 +16,10 @@ Built with **React, Bootstrap, and CSS animations** for a clean and interactive 
 
 ---
 
-## 📸 Screenshots
+## 📸 Video
 
-| Hero Section | News Cards |
-|--------------|-----------|
-| ![Hero Section](https://via.placeholder.com/600x300?text=Hero+Section) | ![News Cards](https://via.placeholder.com/600x300?text=News+Cards) |
+
+
 
 ---
 
@@ -58,7 +57,7 @@ Bootstrap
 
 React
  – for building the interactive UI.
- 
+
 ---
 
  ## 👨‍💻 Author
