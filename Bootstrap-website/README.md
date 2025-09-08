@@ -6,7 +6,8 @@ Built with **React, Bootstrap, and CSS animations** for a clean and interactive 
 ---
 
 ## ✨ Features
-
+ 
+ 
 - 🌍 **Live Top Headlines** fetched using the [NewsAPI](https://newsapi.org/)  
 - 🖼 **Auto-changing Hero Banner** with smooth transitions  
 - 📰 **Dynamic News Cards** with images, headlines, and authors  
