@@ -23,7 +23,7 @@ export default function Navbar() {
               >
                 <path d="M23 19V6a2 2 0 0 0-2-2H3a2 2 0 0 0-2 2v13l4-4h14a2 2 0 0 0 2-2z"></path>
               </svg>
-              <strong>Album</strong>
+              <strong> ALPHA News</strong>
             </a>
 
             {/* Toggle Button */}
