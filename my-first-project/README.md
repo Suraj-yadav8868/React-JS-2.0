@@ -32,6 +32,9 @@ It showcases products, brand story, and includes a contact form for user interac
 
 ---
 
+## Video
+https://drive.google.com/file/d/1XLVi4NlOcH5luJEzB-ME13Uk8vVM2ik0/view?usp=sharing
+
 ## 🛠️ Tech Stack
 
 - ⚛️ **React** – UI library  
@@ -42,8 +45,6 @@ It showcases products, brand story, and includes a contact form for user interac
 - 📡 **EscuelaJS Fake Store API** – Product data  
 
 ---
-
-## 📂 Project Structure
 
 
 
@@ -59,15 +60,6 @@ It showcases products, brand story, and includes a contact form for user interac
 🌙 Add Dark/Light Mode Toggle.
 
 📱 Improve Mobile UX with smoother animations.
-
-## 👨‍💻 Author
-
-**Suraj Yadav**  
-
-💼 [LinkedIn](https://www.linkedin.com/in/surajyadav)  
-💻 [GitHub](https://github.com/Suraj-yadav8868)  
-📸 [Instagram](https://www.instagram.com)  
-
 
 ## 👨‍💻 Author
 
