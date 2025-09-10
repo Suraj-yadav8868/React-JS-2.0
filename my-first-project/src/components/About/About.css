@@ -1,0 +1,24 @@
+/* About Page के लिए CSS */
+.about-page {
+  background-color: aliceblue;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.about-page h1, .about-page h2 {
+  font-family: 'Poppins', sans-serif; /* अगर आप Google Fonts इस्तेमाल कर रहे हैं */
+}
+
+/* अगर आप कार्ड्स पर कोई स्पेशल इफेक्ट चाहते हैं */
+.card-body i {
+  color: #000; /* आइकन का रंग */
+  font-size: 3rem;
+}
+.about-image {
+  background-size: cover;
+  background-position: center;
+  width: 80%;
+  height: 300px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}

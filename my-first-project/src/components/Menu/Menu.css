@@ -1,0 +1,22 @@
+.card-img-container {
+  height: 200px; /* Set a fixed height for all images */
+  overflow: hidden; /* Hide any overflow */
+  display: flex; /* Use flexbox to center the image */
+  justify-content: center;
+  align-items: center;
+}
+
+.card-img-container .card-img-top {
+  width: auto; /* Allow the width to adjust */
+  height: 100%; /* Make the height fill the container */
+  object-fit: cover; /* This is the key. It will crop the image to fit the container without stretching it */
+}
+
+.product-description {
+  /* This helps to truncate the description to a specific number of lines */
+  display: -webkit-box;
+  -webkit-line-clamp: 3; /* Show up to 3 lines of description */
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
