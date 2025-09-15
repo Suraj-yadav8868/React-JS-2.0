@@ -1,0 +1,17 @@
+.about-section {
+  background: #f8f9fa;
+}
+
+.about-image {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.about-image:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.about-section h2 {
+  font-size: 2rem;
+  letter-spacing: 1px;
+}

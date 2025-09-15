@@ -1,33 +1,31 @@
+import React from "react";
+import { Routes, Route } from "react-router-dom";
 
-import './App.css'
-import { BrowserRouter, Routes, Route , Link } from "react-router-dom"; import { useState } from 'react'
-import Home from './components/home'
-import About from './components/about'
-import Contact from './components/contact'
-import Project from './components/project'
+// Components
+import Navbar from "./components/Navbar/Navbar";
+import Home from "./components/Home/Home";
+import About from "./components/About/About";
+import Project from "./components/Project/Project";
+import Contact from "./components/Contact/Contact";
 
-
-
-
-function App() {
-  const [count, setCount] = useState(0)
-
+export default function App() {
   return (
     <>
-     <nav>
-        <Link to={"/about"}>About</Link>
-        <Link to={"/projects"}>Projects</Link>
-        <Link to={"/contacts"}>Contact</Link>
-      </nav>
+      {/* Navbar */}
+      <Navbar />
 
-      <Routes>
-        <Route path='/' element={<Home/>}/>
-        <Route path='/about' element={<About/>}/>
-        <Route path='/projects' element={<Project/>}/>
-        <Route path='/contacts' element={<Contact/>}/>
-      </Routes>
+      {/* Routes */}
+      <div className="container mt-4">
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/projects" element={<Project />} />
+          <Route path="/contact" element={<Contact />} />
+
+          {/* 404 Not Found Route */}
+          <Route path="*" element={<h2 className="text-center text-danger">404 - Page Not Found</h2>} />
+        </Routes>
+      </div>
     </>
-  )
+  );
 }
-
-export default App
