@@ -1,12 +1,43 @@
-# React + Vite
+# 🛒 Moroco Shop
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern e-commerce web application built with **React.js**.  
+This project demonstrates product browsing, cart management, and a clean responsive UI.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- **Modern UI/UX**
+  - Fullscreen Hero section on Home
+  - Gradient Navbar with icons & responsive design
+  - Product cards with images, price, and category
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Routing**
+  - React Router for navigation (`Home`, `About`, `Products`, `Cart`)
+
+- **Product Management**
+  - Product listing from a dummy `products.js` file (15 items)
+  - Product detail view
+  - Add to Cart functionality
+
+- **Cart**
+  - Add multiple products
+  - Navigate to Cart directly after adding
+  - Simple summary display
+
+- **Responsive Design**
+  - Works seamlessly on desktop, tablet, and mobile devices
+
+---
+
+## 🛠️ Tech Stack
+
+- **Frontend**: React.js, React Router
+- **UI Framework**: Bootstrap 5 + Custom CSS
+- **Icons**: React Icons
+- **Data**: Dummy `products.js` file
+
+---
+
+## 📂 Project Structure
+
