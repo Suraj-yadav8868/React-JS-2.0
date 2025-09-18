@@ -39,5 +39,6 @@ This project demonstrates product browsing, cart management, and a clean respons
 
 ---
 
-## 📂 Project Structure
+## Video
+https://drive.google.com/file/d/1uNZblOCks6gzSyYs9q013v6bhJwQ_IEv/view?usp=sharing
 
