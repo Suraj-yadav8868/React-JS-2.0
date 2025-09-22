@@ -50,11 +50,10 @@ Responsive grid layout with images & details well-spaced.
 
 🎥 Demo Video
 
-👉 Click here to watch the demo  https://drive.google.com/file/d/1uNZblOCks6gzSyYs9q013v6bhJwQ_IEv/view?usp=sharing
+👉 Click here to watch the demo  
+# https://drive.google.com/file/d/1Kqq-5sMCTkF55mSkOHTYcr3hZGy00P7A/view?usp=sharing
 
-
-
-
+--- 
 🛠️ Tech Stack
 
 ⚛️ React – Frontend library
