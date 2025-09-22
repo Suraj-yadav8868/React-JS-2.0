@@ -1,9 +1,9 @@
-🛒 React E-Commerce App
+## E-Commerce App
 
 A modern React-based e-commerce website where users can explore products, view details, and manage a shopping cart.
 It includes product browsing, cart management with quantity updates, and a smooth responsive UI.
 
-🚀 Features
+## 🚀 Features
 
 🧭 Responsive Navbar
 
@@ -39,7 +39,7 @@ Clean Bootstrap-based design.
 
 Responsive grid layout with images & details well-spaced.
 
-🛠️ Tech Stack
+## 🛠️ Tech Stack
 
 ⚛️ React – Frontend library
 
@@ -49,7 +49,7 @@ Responsive grid layout with images & details well-spaced.
 
 💻 JavaScript (ES6+) – Core programming
 
-📂 Project Structure
+## 📂 Project Structure
 react-ecommerce-app/
 ├── public/
 │   ├── index.html
@@ -66,7 +66,7 @@ react-ecommerce-app/
 │   └── styles/
 └── README.md
 
-🔮 Future Improvements
+## 🔮 Future Improvements
 
 ✨ Add User Authentication (Login/Signup).
 💳 Integrate Payment Gateway (Stripe/PayPal).
@@ -74,7 +74,7 @@ react-ecommerce-app/
 📱 Improve mobile experience with smoother animations.
 📊 Add Wishlist & Order History.
 
-👨‍💻 Author
+## 👨‍💻 Author
 
 Suraj Yadav
 💼 LinkedIn
