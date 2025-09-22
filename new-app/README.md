@@ -1,9 +1,9 @@
-## E-Commerce App
+## 🛒 React E-Commerce App
 
 A modern React-based e-commerce website where users can explore products, view details, and manage a shopping cart.
 It includes product browsing, cart management with quantity updates, and a smooth responsive UI.
 
-## 🚀 Features
+🚀 Features
 
 🧭 Responsive Navbar
 
@@ -21,7 +21,7 @@ Shows larger product image, description, price, and category.
 
 Option to go back to product listing.
 
-🛒 Shopping Cart
+## 🛒 Shopping Cart
 
 Add products to cart.
 
@@ -33,13 +33,29 @@ Dynamic total price calculation.
 
 Proceed to Checkout button.
 
-🎨 Modern UI
+## 🎨 Modern UI
 
 Clean Bootstrap-based design.
 
 Responsive grid layout with images & details well-spaced.
 
-## 🛠️ Tech Stack
+
+🏠 Homepage
+
+📦 Product Listing
+
+🛍️ Product Details
+
+🛒 Cart Page
+
+🎥 Demo Video
+
+👉 Click here to watch the demo  https://drive.google.com/file/d/1uNZblOCks6gzSyYs9q013v6bhJwQ_IEv/view?usp=sharing
+
+
+
+
+🛠️ Tech Stack
 
 ⚛️ React – Frontend library
 
@@ -49,24 +65,9 @@ Responsive grid layout with images & details well-spaced.
 
 💻 JavaScript (ES6+) – Core programming
 
-## 📂 Project Structure
-react-ecommerce-app/
-├── public/
-│   ├── index.html
-│   └── favicon.ico
-├── src/
-│   ├── components/
-│   │   ├── Navbar/
-│   │   ├── About/
-│   │   ├── Product/
-│   │   ├── Cart/
-│   │   └── Home/
-│   ├── App.jsx
-│   ├── index.js
-│   └── styles/
-└── README.md
 
-## 🔮 Future Improvements
+
+ ## 🔮 Future Improvements
 
 ✨ Add User Authentication (Login/Signup).
 💳 Integrate Payment Gateway (Stripe/PayPal).
@@ -74,13 +75,12 @@ react-ecommerce-app/
 📱 Improve mobile experience with smoother animations.
 📊 Add Wishlist & Order History.
 
-## 👨‍💻 Author
+👨‍💻 Author
 
 Suraj Yadav
 💼 LinkedIn
  | 💻 GitHub
  | 📸 Instagram
 
-## Video
- https://drive.google.com/file/d/1uNZblOCks6gzSyYs9q013v6bhJwQ_IEv/view?usp=sharing
 
+ 
