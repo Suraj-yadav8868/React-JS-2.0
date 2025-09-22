@@ -29,26 +29,6 @@ Bootstrap / CSS for styling
 
 LocalStorage for persistence
 
-📂 Project Structure
-Movie-Manager-App/
-│── src/
-│   ├── components/
-│   │   ├── Navbar/
-│   │   │   └── AppNavbar.jsx
-│   │   ├── Login/
-│   │   │   └── Login.jsx
-│   │   ├── Movies/
-│   │   │   ├── MovieList.jsx
-│   │   │   └── MovieCard.jsx
-│   │   └── Favorites/
-│   │       └── Favorites.jsx
-│   ├── App.jsx
-│   ├── index.js
-│   └── data/
-│       └── movies.js   # Sample random movie data
-│
-└── README.md
-
 ---
 
 ## 📸 Video 
