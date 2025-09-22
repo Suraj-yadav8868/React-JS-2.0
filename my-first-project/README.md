@@ -1,67 +1,82 @@
-# 🛍️ Jakiro Store
+🛒 React E-Commerce App
 
-Jakiro Store is a modern **fashion e-commerce website** built using **React**, **React Router**, and **React Bootstrap**.  
-It showcases products, brand story, and includes a contact form for user interaction.
+A modern React-based e-commerce website where users can explore products, view details, and manage a shopping cart.
+It includes product browsing, cart management with quantity updates, and a smooth responsive UI.
 
----
+🚀 Features
 
-## 🚀 Features
+🧭 Responsive Navbar
 
-- 🧭 **Responsive Navbar**
-  - Dropdowns for Men, Blazers, Jackets, and Brands.
-  - External links to clothing categories & brand websites.
-  
-- 📖 **About Section**
-  - Brand story with an engaging description.
-  - Stylish image with bootstrap-based layout.
-  - Core values displayed using cards (Quality, Sustainability, Ethics).
+Easy navigation across Home, About, Products, and Cart.
 
-- 🛒 **Menu (Products Page)**
-  - Fetches live products from [EscuelaJS API](https://api.escuelajs.co/api/v1/products).
-  - Displays first 9 products with images, description, and price.
-  - Loading spinner and error handling included.
+📦 Product Listing (About Page)
 
-- 📬 **Contact Section (Footer)**
-  - User query form (Name, Email, Message).
-  - Company info + quick links (Email, GitHub/Facebook, LinkedIn/Instagram).
-  - Footer credits with auto year update.
+Products displayed in clean cards with image, name, price, and category.
 
-- 🎨 **Modern UI**
-  - Built with **React Bootstrap** for responsive grid and components.
-  - Custom CSS for styling.
+Clickable for detailed product view.
 
----
+🛍️ Product Details Page
 
-## Video
-https://drive.google.com/file/d/1XLVi4NlOcH5luJEzB-ME13Uk8vVM2ik0/view?usp=sharing
+Shows larger product image, description, price, and category.
 
-## 🛠️ Tech Stack
+Option to go back to product listing.
 
-- ⚛️ **React** – UI library  
-- 🌐 **React Router DOM** – Navigation & routing  
-- 🎨 **React Bootstrap** – UI components & responsive grid  
-- 💻 **JavaScript (ES6+)** – Core programming language  
-- 🖼️ **Unsplash API (for images)**  
-- 📡 **EscuelaJS Fake Store API** – Product data  
+🛒 Shopping Cart
 
----
+Add products to cart.
 
+Quantity buttons ➕ ➖ for each product.
 
+Remove option for unwanted products.
 
+Dynamic total price calculation.
 
-## 🔮 Future Improvements
+Proceed to Checkout button.
 
-🛍️ Add Cart & Checkout functionality.
+🎨 Modern UI
 
-⭐ Integrate User Authentication (Login/Signup).
+Clean Bootstrap-based design.
 
-💳 Add Payment Gateway (Stripe/PayPal).
+Responsive grid layout with images & details well-spaced.
 
+🛠️ Tech Stack
+
+⚛️ React – Frontend library
+
+🌐 React Router DOM – Navigation & routing
+
+🎨 Bootstrap + Custom CSS – Styling & responsiveness
+
+💻 JavaScript (ES6+) – Core programming
+
+📂 Project Structure
+react-ecommerce-app/
+├── public/
+│   ├── index.html
+│   └── favicon.ico
+├── src/
+│   ├── components/
+│   │   ├── Navbar/
+│   │   ├── About/
+│   │   ├── Product/
+│   │   ├── Cart/
+│   │   └── Home/
+│   ├── App.jsx
+│   ├── index.js
+│   └── styles/
+└── README.md
+
+🔮 Future Improvements
+
+✨ Add User Authentication (Login/Signup).
+💳 Integrate Payment Gateway (Stripe/PayPal).
 🌙 Add Dark/Light Mode Toggle.
+📱 Improve mobile experience with smoother animations.
+📊 Add Wishlist & Order History.
 
-📱 Improve Mobile UX with smoother animations.
+👨‍💻 Author
 
-## 👨‍💻 Author
-
-**Suraj Yadav**  
-[💼 LinkedIn](https://www.linkedin.com/in/surajyadav) | [💻 GitHub](https://github.com/Suraj-yadav8868) | [📸 Instagram](https://www.instagram.com)
+Suraj Yadav
+💼 LinkedIn
+ | 💻 GitHub
+ | 📸 Instagram

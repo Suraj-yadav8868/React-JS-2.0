@@ -20,25 +20,57 @@ export default function Product() {
   }
 
   return (
-    <div className="container mt-5">
-      <div className="card p-4">
-        <img
-          src={product.image}
-          alt={product.title}
-          style={{ width: "300px", height: "200px", objectFit: "cover" }}
-          className="mb-3"
-        />
-        <h2>{product.title}</h2>
-        <h4 className="text-success">Price: ${product.price}</h4>
-        <p className="text-muted">Category: {product.category}</p>
-        <p>{product.description}</p>
+    <div className="container py-5">
+      <div
+        className="card shadow-lg border-0 rounded-4 mx-auto"
+        style={{ maxWidth: "800px", padding: "30px" }}
+      >
+        {/* Image */}
+        <div className="text-center mb-4">
+          <img
+            src={product.image}
+            alt={product.title}
+            style={{
+              maxWidth: "100%",
+              height: "350px",
+              objectFit: "contain",
+              borderRadius: "15px",
+              background: "#f8f9fa",
+              padding: "15px",
+            }}
+          />
+        </div>
 
-        <button
-          className="btn btn-secondary mt-3"
-          onClick={() => navigate(-1)} // pichle page pe wapas
-        >
-          Go Back
-        </button>
+        {/* Details */}
+        <h2 className="fw-bold mb-3">{product.title}</h2>
+        <h4 className="text-success fw-semibold mb-3">
+          Price: ${product.price}
+        </h4>
+        <p className="text-muted mb-2">Category: {product.category}</p>
+        <p style={{ lineHeight: "1.6" }}>{product.description}</p>
+
+        {/* Buttons */}
+        <div className="d-flex gap-3 mt-4">
+          <button
+            className="btn btn-lg flex-fill"
+            style={{
+              background: "linear-gradient(135deg, #667eea, #764ba2)",
+              color: "white",
+              borderRadius: "25px",
+              fontWeight: "600",
+            }}
+            onClick={() => alert("Added to Cart 🛒")}
+          >
+            Add to Cart
+          </button>
+
+          <button
+            className="btn btn-outline-dark btn-lg flex-fill rounded-pill fw-semibold"
+            onClick={() => navigate(-1)}
+          >
+            Go Back
+          </button>
+        </div>
       </div>
     </div>
   );
