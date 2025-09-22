@@ -1,7 +1,7 @@
 import React from "react";
 import { useLocation, useNavigate } from "react-router-dom";
 
-export default function Product() {
+export default function Product({ setCartList }) {
   const location = useLocation();
   const navigate = useNavigate();
 
@@ -59,7 +59,10 @@ export default function Product() {
               borderRadius: "25px",
               fontWeight: "600",
             }}
-            onClick={() => alert("Added to Cart 🛒")}
+            onClick={() => {
+              setCartList((prev) => [...prev, product]);
+              alert("Added to Cart 🛒");
+            }}
           >
             Add to Cart
           </button>
