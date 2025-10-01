@@ -16,27 +16,8 @@ The app includes advanced filters, search functionality, and a modern UI for ord
 
 ---
 
-## 🚀 Usage
-
-### 1. Install Dependencies
-
-```bash
-npm install
-```
-
-### 2. Start Development Server
-
-```bash
-npm run dev
-```
-
-(For CRA users)
-
-```bash
-npm start
-```
-
----
+## video
+* https://drive.google.com/file/d/1eBDv4XHcmTZZonZQMbavJVON7VIjNXf4/view?usp=sharing
 
 ## 📂 Project Structure
 
